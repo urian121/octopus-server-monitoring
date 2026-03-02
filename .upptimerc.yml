@@ -1,40 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Configuración del Propietario
+owner: urian121 
+repo: octopus-server-monitoring
 
+# Sitios a monitorear
 sites:
   - name: UrianViera
     url: https://www.urianviera.com
     method: GET
-  - name: GitLab
+  - name: GitLab Octapus
     url: https://gitlab.octapus.io
     method: GET
   - name: Tenant Chevyplan
     url: https://chevyplan.akila-prod.octapus.io/admin/login/
     method: GET
-  - name: N8N
+  - name: Instancia N8N
     url: https://auto.octapus.io/home
     method: GET
-  - name: IPv6 test
+  - name: Prueba IPv6 (TCP Ping)
     url: forwardemail.net
     port: 80
     check: "tcp-ping"
     ipv6: true
 
+# Configuración de la página web de estado
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # Si no tienes dominio propio, comenta 'cname' y usa 'baseUrl' con el nombre de tu repo
+  # cname: demo.upptime.js.org
+  baseUrl: /octopus-server-monitoring
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Monitor de Servicios Octapus
+  introTitle: "**Estado de los Servicios**"
+  introMessage: Página de estado en tiempo real impulsada por GitHub Actions. No requiere servidor propio.
   navbar:
-    - title: Status
+    - title: Estado Actual
       href: /
-    - title: GitHub
+    - title: Ver en GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Notificaciones por Correo Electrónico
+notifications:
+  - type: mail
+    # El correo de destino (donde recibirás la alerta)
+    to: urian.viera@octapus.io
+    # Datos del servidor SMTP (Ejemplo con Gmail)
+    # NOTA: Debes guardar estas contraseñas en GitHub Secrets (Settings > Secrets > Actions)
+    smtpHost: smtp.gmail.com
+    smtpPort: 465
+    smtpSecure: true
+    smtpUsername: tu-cuenta-de-envio@gmail.com
+    smtpPassword: "$SMTP_PASSWORD"
