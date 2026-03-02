@@ -3,14 +3,18 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: UrianViera
+    url: https://www.urianviera.com
+    method: GET
+  - name: GitLab
+    url: https://gitlab.octapus.io
+    method: GET
+  - name: Tenant Chevyplan
+    url: https://chevyplan.akila-prod.octapus.io/admin/login/
+    method: GET
+  - name: N8N
+    url: https://auto.octapus.io/home
+    method: GET
   - name: IPv6 test
     url: forwardemail.net
     port: 80
