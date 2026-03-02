@@ -41,7 +41,7 @@ status-website:
 notifications:
   - type: mail
     # El correo de destino (donde recibirás la alerta)
-    to: urian.viera@octapus.io
+    to: urianwebdeveloper@gmail.com
     # Datos del servidor SMTP (Ejemplo con Gmail)
     # NOTA: Debes guardar estas contraseñas en GitHub Secrets (Settings > Secrets > Actions)
     smtpHost: smtp.gmail.com
