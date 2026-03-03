@@ -1,7 +1,7 @@
 url: https://auto.octapus.io/home
-status: up
-code: 200
-responseTime: 264
-lastUpdated: 2026-03-02T23:14:37.778Z
+status: down
+code: 404
+responseTime: 233
+lastUpdated: 2026-03-03T17:00:30.977Z
 startTime: 2026-03-02T21:31:00.796Z
 generator: Upptime <https://github.com/upptime/upptime>
