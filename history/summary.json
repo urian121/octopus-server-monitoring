@@ -58,18 +58,20 @@
     "url": "https://auto.octapus.io/home",
     "icon": "https://icons.duckduckgo.com/ip3/auto.octapus.io.ico",
     "slug": "instancia-n8-n",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 277,
-    "timeDay": 277,
-    "timeWeek": 277,
-    "timeMonth": 277,
-    "timeYear": 277,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 266,
+    "timeDay": 266,
+    "timeWeek": 266,
+    "timeMonth": 266,
+    "timeYear": 266,
+    "dailyMinutesDown": {
+      "2026-03-03": 0
+    }
   },
   {
     "name": "Prueba IPv6 (TCP Ping)",
@@ -88,7 +90,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-03": 112,
+      "2026-03-03": 1021,
       "2026-03-02": 149
     }
   }
