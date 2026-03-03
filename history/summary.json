@@ -11,7 +11,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 521,
-    "timeDay": 521,
+    "timeDay": 563,
     "timeWeek": 521,
     "timeMonth": 521,
     "timeYear": 521,
@@ -29,7 +29,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 491,
-    "timeDay": 491,
+    "timeDay": 455,
     "timeWeek": 491,
     "timeMonth": 491,
     "timeYear": 491,
@@ -47,7 +47,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 327,
-    "timeDay": 327,
+    "timeDay": 300,
     "timeWeek": 327,
     "timeMonth": 327,
     "timeYear": 327,
@@ -58,19 +58,19 @@
     "url": "https://auto.octapus.io/home",
     "icon": "https://icons.duckduckgo.com/ip3/auto.octapus.io.ico",
     "slug": "instancia-n8-n",
-    "status": "down",
-    "uptime": "96.04%",
-    "uptimeDay": "96.04%",
-    "uptimeWeek": "96.04%",
-    "uptimeMonth": "96.04%",
-    "uptimeYear": "96.04%",
-    "time": 384,
-    "timeDay": 384,
-    "timeWeek": 384,
-    "timeMonth": 384,
-    "timeYear": 384,
+    "status": "up",
+    "uptime": "88.73%",
+    "uptimeDay": "88.57%",
+    "uptimeWeek": "88.73%",
+    "uptimeMonth": "88.73%",
+    "uptimeYear": "88.73%",
+    "time": 370,
+    "timeDay": 404,
+    "timeWeek": 370,
+    "timeMonth": 370,
+    "timeYear": 370,
     "dailyMinutesDown": {
-      "2026-03-03": 53
+      "2026-03-03": 164
     }
   },
   {
@@ -90,7 +90,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-03": 1200,
+      "2026-03-03": 1311,
       "2026-03-02": 149
     }
   }
