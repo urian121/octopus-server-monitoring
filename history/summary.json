@@ -58,17 +58,17 @@
     "url": "https://auto.octapus.io/home",
     "icon": "https://icons.duckduckgo.com/ip3/auto.octapus.io.ico",
     "slug": "instancia-n8-n",
-    "status": "up",
-    "uptime": "89.45%",
-    "uptimeDay": "86.88%",
-    "uptimeWeek": "89.45%",
-    "uptimeMonth": "89.45%",
-    "uptimeYear": "89.45%",
-    "time": 321,
-    "timeDay": 258,
-    "timeWeek": 321,
-    "timeMonth": 321,
-    "timeYear": 321,
+    "status": "down",
+    "uptime": "89.61%",
+    "uptimeDay": "89.98%",
+    "uptimeWeek": "89.61%",
+    "uptimeMonth": "89.61%",
+    "uptimeYear": "89.61%",
+    "time": 313,
+    "timeDay": 252,
+    "timeWeek": 313,
+    "timeMonth": 313,
+    "timeYear": 313,
     "dailyMinutesDown": {
       "2026-03-04": 105,
       "2026-03-03": 195
@@ -91,7 +91,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-03-04": 1258,
+      "2026-03-04": 1303,
       "2026-03-03": 1440,
       "2026-03-02": 149
     }
